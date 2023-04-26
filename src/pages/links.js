@@ -1,16 +1,25 @@
-const logo = require('../images/linkedin.png')
-const logo2 = require('../images/github-mark-white.png') 
+
+import art from '../images/art-gallery.png'
+import breads from '../images/breadCrud.png'
 
 function Links(){
     return(
         <div className="flex text-black items-center justify-center h-screen w-screen ">
-                <div>
-                    <p className="text-3xl font-mono">Contact me here! </p> 
-                    <p className='font-mono'>Email: zacharyd97@gmail.com</p>
-                    <p className='font-mono'>Phone: 540-497-2763</p>
+            <div>
+                <h1 className='text-3xl font-mono p-8'>Projects</h1>
+                <div >
+                    <a href='https://art-gallery224223.herokuapp.com/'><img className='w-48 rounded-xl' src={art}/></a>
+                    <p className='font-mono'>Art gallery</p>
+                </div>
+                <div >
+                    <a href='https://tranquil-island-45337.herokuapp.com/breads'><img className='w-48 rounded-xl' src={breads}/></a>
+                    <p className='font-mono'>Bread Crud </p>
                 </div>
                 
+                
             </div>
+                
+        </div>
     )
 }
 export default Links

@@ -13,7 +13,7 @@ function home(){
                 </div>
                 <div className='flex-row'>
                         <a  href="https://github.com/zacharyd97"><img className=' w-10 h-10 p-2' src={logo2}/></a>
-                        <a  href="https://www.linkedin.com/in/zachary-dowell-a18179243/"><img className=' w-10 h-10 p-2' src={logo}/></a>
+                        <a  href="https://www.linkedin.com/in/zachary-dowell/"><img className=' w-10 h-10 p-2' src={logo}/></a>
                     </div>
             </div>
     )

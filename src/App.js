@@ -7,9 +7,7 @@ import './index.css';
 import Home from './pages/home';
 import Links from "./pages/links";
 import About from "./pages/about";
-const anchors = ["Home", "About", "Contact"];
-// const logo = require('../images/linkedin.png')
-// const logo2 = require('../images/github-mark-white.png') 
+const anchors = ["Home", "About", "Projects"];
 
 
 const App = () => (
